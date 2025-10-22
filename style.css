@@ -155,6 +155,109 @@ body{
 .team-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:12px}
 .team-card{background:var(--white); padding:14px; border-radius:10px; text-align:center; box-shadow:0 8px 20px rgba(4,32,63,0.04)}
 .team-card img{border-radius:8px; width:120px; height:120px; object-fit:cover; margin-bottom:10px}
+.team-info{
+  margin-top:20px;
+  background:var(--white);
+  padding:16px;
+  border-radius:10px;
+  box-shadow:0 8px 20px rgba(4,32,63,0.04);
+}
+.team-info h5{
+  font-family:'Poppins',sans-serif;
+  margin-bottom:10px;
+  color:var(--royal);
+}
+.team-info p{
+  margin-bottom:12px;
+  color:var(--muted);
+}
+.team-benefits{
+  list-style:disc;
+  padding-left:18px;
+  margin:0;
+}
+.team-benefits li{
+  margin-bottom:6px;
+  color:var(--muted);
+}
+
+.marketing-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-top:16px;
+}
+
+.marketing-card{
+  background:var(--white); /* fundo branco */
+  padding:16px;
+  border-radius:10px;
+  box-shadow:0 8px 20px rgba(4,32,63,0.04);
+  border:1px solid rgba(0,0,0,0.03);
+}
+
+.marketing-card h4{
+  font-family:'Poppins',sans-serif;
+  margin-bottom:10px;
+  color:var(--royal);
+}
+
+.marketing-card ul{
+  padding-left:18px;
+  margin:0;
+  color:var(--muted);
+}
+
+.marketing-card ul li{
+  margin-bottom:6px;
+}
+
+/* Responsivo */
+@media (max-width:980px){
+  .marketing-grid{grid-template-columns:1fr}
+}
+
+.diff-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-top:16px;
+}
+
+.diff-card{
+  background:var(--white);
+  padding:16px;
+  border-radius:10px;
+  box-shadow:0 8px 20px rgba(4,32,63,0.04);
+  border:1px solid rgba(0,0,0,0.03);
+}
+
+.diff-card h4{
+  font-family:'Poppins',sans-serif;
+  margin-bottom:10px;
+  color:var(--royal);
+}
+
+.diff-card p{
+  color:var(--muted);
+  margin-bottom:10px;
+}
+
+.diff-card ul{
+  padding-left:18px;
+  margin:0;
+  color:var(--muted);
+}
+
+.diff-card ul li{
+  margin-bottom:6px;
+}
+
+/* Responsivo */
+@media (max-width:980px){
+  .diff-grid{grid-template-columns:1fr}
+}
+
 
 /* Contact */
 .contact-grid{display:grid; grid-template-columns:360px 1fr; gap:18px; align-items:start}
